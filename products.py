@@ -12,7 +12,6 @@ def read_file(filename):
     print(products)
     return products
 
-
 # 使用者輸入
 def user_input(products):
     while True:
@@ -49,4 +48,5 @@ def main():
     print_product(products)
     write_file(filename, products)
 
-main()
+if __name__ == '__main__':
+    main()
